@@ -1,0 +1,16 @@
+ПУЛЬС 3.0 — быстрый запуск
+
+1. Прочитай README.md (русская пошаговая инструкция).
+2. Создай Supabase-проект: https://supabase.com/dashboard
+3. Выполни SQL из supabase_setup.sql через SQL Editor → Run.
+4. Скопируй Project URL и Publishable key (НЕ SECRET / SERVICE ROLE).
+5. Заполни config.js: url и publishableKey.
+6. Залей файлы этой папки в GitHub Pages и получи HTTPS-ссылку.
+7. Укажи эту ссылку в Supabase Authentication → URL Configuration.
+8. Войди в Пульс с ПК и iPhone под одним аккаунтом.
+
+Готовый планировщик: index.html.
+Для офлайн/PWA нужна публикация по HTTPS. Без аккаунта сайт работает локально.
+Из Пульса 1.0/2.0 перенос через .cfg в Настройки → Восстановить.
+
+ВАЖНО: НИКОГДА не публикуй secret/service_role key!
